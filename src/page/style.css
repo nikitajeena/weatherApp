@@ -1,0 +1,29 @@
+table,
+tbody {
+  width: 100%;
+  border: solid grey 1px;
+  padding: 0px;
+  margin: 2rem 0rem;
+  border-spacing: 0px;
+}
+tbody {
+  background-color: beige;
+}
+th {
+  border: solid grey 1px;
+  padding: 1rem;
+  margin: 0px;
+}
+
+.search-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0rem;
+}
+
+.search-input > input {
+  width: 50%;
+  height: 30px;
+  outline: none;
+}
